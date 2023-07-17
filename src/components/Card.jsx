@@ -1,4 +1,4 @@
-const Card = ({ superHost, title, rating, photo, beds, type, maxGuests }) => {
+const Card = ({ superHost, title, rating, photo, beds, type }) => {
   return (
     <div className="card">
       <div className="imageCard">
@@ -7,7 +7,7 @@ const Card = ({ superHost, title, rating, photo, beds, type, maxGuests }) => {
 
       <div className="infoCard">
         {superHost ? <span className="superhost">SUPER HOST</span> : null}
-        <span>{type} {maxGuests}</span>
+        <span>{type}</span>
         {superHost && beds ? <span>. {beds} beds</span> : null}
         <div className="rating">
           <svg
