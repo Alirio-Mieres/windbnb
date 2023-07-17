@@ -50,7 +50,7 @@ function App() {
     }
 
     const arr = data.filter((data) => {
-      return data.maxGuests > +number;
+      return data.maxGuests >= +number;
     }
     );
 
