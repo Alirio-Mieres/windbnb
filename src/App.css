@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif; 
+}
+
+main,
+nav,
+.title {
+  width: 80%;
+  margin: auto;
+}
+
+/*Navegacion*/
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3em;
+  margin-top: 1em;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2em;
+}
+
+h1 {
+  color: hsl(0, 0%, 20%);
+}
+
+.logo,
+.search-container {
+  display: flex;
+  align-items: center;
+}
+
+.search-container {
+  justify-content: center;
+  height: 60px;
+  border-radius: 16px;
+  box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.search-1 {
+  border-right: 1px solid #f2f2f2;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.search-1 input {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  padding: 10px;
+}
+
+.search-2 span {
+  padding: 30px;
+  border-right: 1px solid #f2f2f2;
+  color: hsl(0, 0%, 74%);
+}
+
+.search-3 {
+  padding: 20px;
+}
+
+/*Lista*/
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main img {
+    width: 400px;
+    aspect-ratio: auto 400 / 400;
+    height: 400px;
+}
+
+.cardList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  min-height: 70vh;
+  width: 100%;
+  gap: 2rem;
+}
+
+.card {
+  width: 400px;
+}
+
+.imageCard {
+  width: 100%;
+  height: 270px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.imageCard img {
+  width: 100%;
+}
+
+.infoCard {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  margin-top: 0.5em;
+  color: hsl(0, 0%, 51%);
+}
+
+h3 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 0.5em;
+}
+
+.superhost {
+    width: 100px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    border: 1px solid hsl(0, 0%, 31%);
+    color: hsl(0, 0%, 31%);
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.star-red {
+  color: hsl(0, 79%, 63%);
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 7px
+}
+
+.search-icon {
+  color: hsl(0, 79%, 63%);
+}
+
+ input {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  padding: 10px;
+}
